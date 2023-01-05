@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hell!</title>
+    <link rel="stylesheet" href="app.component.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="hell.html"> <img class="hell" src="img/mt logo.png" width="110px" alt=""></a>
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                        <li><a style="color:black;"href="app.component.html">Home</a></li>
+                        <li><a style="color:black;"href="product.app.component.html">Product</a></li>
+                        <li><a style="color:black;"href="new.app.component.html">New Arrival</a></li>
+                        <li><a style="color:black;"href="almighty.app.component.html">Almighty</a></li>
+                        <li><a style="color:black;"href="details.app.component.html">Details</a></li>
+
+                </ul>
+            </nav>
+            <a href="cart.app.component.html"> <img src="img/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+
+
+
+        <div class="contain">
+            <div class="rowss">
+                <div class="headerss">
+                    <h1>It's Almighty Falcon</h1>
+
+                </div>
+            </div>
+
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="img/mt14.png" class="offer-img" alt="">
+                        </div>
+                        <div class="col-2">
+                            <h1>Falcon</h1>
+                            <p>Energy B5 GLOSS RED </p><br>
+                            <small>This Falcon blends the comfort and riding characteristics of a off road helmet with
+                                race-bred aerodynamics and performance. Equipped with plush interiors and an extended
+                                peak,
+                                the Falcon will let you explore the extreme journey .</small>
+                            <br><a href="" class="btn">Buy Now &#8594;</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--------footer------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="img/play-store.png" alt="">
+                            <img src="img/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="img/logo33.png" alt="">
+                        <p>All You Need is a Importance Of Wearing Helmets and a Dream. Always put your head first. </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful links</h3>
+                        <ul class="point">
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul class="point">
+                            <li>Meta</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 - Rolex</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------Js for Toggle-------->
+    <script>
+        var Menuitems = document.getElementById("Menuitems");
+
+        Menuitems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "200px";
+            }
+            else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

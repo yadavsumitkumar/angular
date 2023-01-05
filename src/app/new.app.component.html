@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.component.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hell!</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="hell.html"><img class="hell" src="img/mt logo.png" width="110px" alt=""></a>
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a style="color:black;"href="app.component.html">Home</a></li>
+                    <li><a style="color:black;"href="product.app.component.html">Product</a></li>
+                    <li><a style="color:black;"href="new.app.component.html">New Arrival</a></li>
+                    <li><a style="color:black;"href="almighty.app.component.html">Almighty</a></li>
+                    <li><a style="color:black;"href="details.app.component.html">Details</a></li>
+                </ul>
+            </nav>
+            <a href="cart.app.component.html"> <img src="img/cart.png" width="30px" height="30px" alt=""></a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        <div class="contain">
+            <div class="rowss">
+                <div class="categories">
+
+                    <div class="headerss">
+                        <h1>Our New Arrivals </h1>
+                        <p style="margin-bottom:30px ;"> MT has been known to pop into our top 10 safest helmet brands
+                            list
+                            from time to time.</p>
+                    </div>
+
+                    <div class="small-container">
+                        <div class="col-3" style=" box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);">
+                            <img src="img/mt14.png" width="75%">
+                            <h1>Falcon</h1>
+                            <p>This Falcon blends the comfort and riding characteristics of a off road helmet with
+                                race-bred aerodynamics and performance. Equipped with plush interiors and an extended
+                                peak,
+                                the Falcon will let you explore the extreme journey . </p>
+                        </div>
+                        <div class="col-3" style=" box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);">
+                            <img src="img/mt8.png" width="75%">
+                            <h1>Thunder 3 SV</h1>
+                            <p>The Turbine helmet creates a balance between its look and its character. If its
+                                luminescent
+                                design isn’t enough, then there’s Internal Sun Visor for all-day riding comfort besides
+                                built-in speaker pockets for communication devices. </p>
+                        </div>
+                        <div class="col-3" style=" box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);">
+                            <img src="img/mt21.png" width="75%">
+                            <h1>StreetFighter SV</h1>
+                            <p>Discover our full range of MT Street-Fighter SV motorcycle helmets, featuring a variety
+                                of
+                                colours and graphics, from Matt Black and Matt Green to graphics including the Twin and
+                                Darkness.As an official UK stockist of MT helmets, we offer Free UK delivery and Click &
+                                Collect from 15 UK stores, and 12 Months Warranty on all MT helmets. Klarna & other
+                                interest-free finance options are available. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!---footer----->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="img/play-store.png" alt="">
+                            <img src="img/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="img/logo33.png" alt="">
+                        <p>All You Need is a Importance Of Wearing Helmets and a Dream. Always put your head first. </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful links</h3>
+                        <ul class="point">
+                            <li>Coupons</li>
+                            <li>Blog post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul class="point">
+                            <li>Meta</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 - Rolex</p>
+            </div>
+        </div>
+        <!--------Js for Toggle-------->
+        <script>
+            var Menuitems = document.getElementById("Menuitems");
+
+            Menuitems.style.maxHeight = "0px";
+
+            function menutoggle() {
+                if (Menuitems.style.maxHeight == "0px") {
+                    Menuitems.style.maxHeight = "200px";
+                }
+                else {
+                    Menuitems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>

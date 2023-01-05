@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.component.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hell!</title>
+</head>
+
+<body>
+
+
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="hell.html"><img class="hell" src="img/mt logo.png" width="110px" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="Menuitems">
+                        <li><a style="color:black;"href="app.component.html">Home</a></li>
+                        <li><a style="color:black;"href="product.app.component.html">Product</a></li>
+                        <li><a style="color:black;"href="new.app.component.html">New Arrival</a></li>
+                        <li><a style="color:black;"href="almighty.app.component.html">Almighty</a></li>
+                        <li><a style="color:black;"href="details.app.component.html">Details</a></li>
+
+
+                    </ul>
+                </nav>
+                <a href="cart.app.component.html"> <img src="img/cart.png" width="30px" height="30px" alt=""></a>
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                   <h1 style="margin-top: 0px; margin-bottom:0px;">We call it</h1>
+                    <h1 style="margin-top: 0px;margin-bottom: 0px;">Hell!</h1>
+                    <p style="margin-top: 0px;">MT helmets (Manufacturas Tomas S.A. - named after the founder) has been making motorcycle crash
+                        helmets in Cartagena, Spain since 1968. They are the largest helmet brand in Spain and are now
+                        starting to become better known in other EU markets, including the UK, although to date they're
+                        still pretty low profile. Having said that, MT are getting a reputation for producing high
+                        quality, safe lids at a very low price (many sub £100). In fact MT has been known to pop into
+                        our top 10 safest helmet brands list from time to time, meaning if you're in the market for a
+                        new helmet but don't have much money to spare, MT are definitely worth a look.
+
+                    </p>
+
+                   
+                </div>
+                <div class="col-2">
+                    <img src="img/track2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png" alt="">
+                        <img src="img/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo33.png" alt="">
+                    <p>All You Need is a Importance Of Wearing Helmets and a Dream. Always put your head first. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul class="point">
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="point">
+                        <li>Meta</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Rolex</p>
+        </div>
+    </div>
+    <!--------Js for Toggle-------->
+    <!--------Js for Toggle-------->
+    <script>
+        var Menuitems = document.getElementById("Menuitems")
+
+        Menuitems.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (Menuitems.style.maxHeight == "0px") {
+                Menuitems.style.maxHeight = "200px";
+            }
+            else {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
